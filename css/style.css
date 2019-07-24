@@ -1,0 +1,11 @@
+body {
+    background-color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+font-family: 'Exo 2', sans-serif;
