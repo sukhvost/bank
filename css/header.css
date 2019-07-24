@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     background: rgba(170, 169, 173, .3);
-    color: #504d57;
+    color: #a4a4a4;
     padding: 10px 0;
     position: fixed;
 }
@@ -17,6 +17,8 @@
 }
 .logo {
     font-size: 1.2em;
+    font-weight: 900;
+    color: #504d57;
     letter-spacing: 1em;
 }
 .plus {
@@ -36,7 +38,7 @@
 }
 .header-nav li a {
     text-decoration: none;
-    color: #504d57;
+    color: #a4a4a4;
     transition: all 0.2s ease-in;
 }
 .header-nav li a:hover {
@@ -51,7 +53,7 @@
 .header-button__link {
     font-size: 1.2em;
     font-weight: 600;
-    color: #504d57;
+    color: #a4a4a4;
     transition: all 0.2s ease-in;
 }
 .header-button__link:hover {
