@@ -3,12 +3,17 @@
     margin: 25px auto;
 }
 .main-wrap {
+    display: flex;
     border-radius: 10px;
-    background: #affbff url(../img/tabs-content.png) no-repeat bottom right; 
+    background: #affbff; 
 }
-.main-blank {
+.main-wrap__blank {
     width: 50%;
     padding: 40px;
+}
+.main-wrap__bg {
+    width: 50%;
+    background: url(../img/tabs-content.png) no-repeat bottom;
 }
 
 /*title*/

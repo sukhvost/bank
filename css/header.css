@@ -3,7 +3,6 @@
     background: rgba(170, 169, 173, .3);
     color: #a4a4a4;
     padding: 10px 0;
-    position: fixed;
 }
 .header-wrap {
     display: flex;
