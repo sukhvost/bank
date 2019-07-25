@@ -18,6 +18,8 @@
     position: absolute;
     bottom: 0;
 }
+
+/*nav*/
 .article-nav {
     margin-left: auto;
 }
@@ -35,6 +37,7 @@
     font-weight: 600;
     position: relative;
     padding-bottom: 23px;
+    transition: all 0.2s ease-in;
 }
 .article-nav a:hover {
     color: #fff;

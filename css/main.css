@@ -1,0 +1,53 @@
+.main {
+    width: 100%;
+    margin: 25px auto;
+}
+.main-wrap {
+    border-radius: 10px;
+    background: #affbff url(../img/tabs-content.png) no-repeat bottom right; 
+}
+.main-blank {
+    width: 50%;
+    padding: 40px;
+}
+
+/*title*/
+.main-blank__title {
+    font-size: 1.7em;
+    font-weight: 900;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/*content*/
+.main-blank__content {
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+
+/*input*/
+.main-blank input {
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #ffe900;
+    font-size: 1em;
+    font-weight: 800;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.main-blank input:hover {
+    box-shadow: 5px 10px 10px #000;
+    background: #fff;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+}
+.main-blank input:focus {
+    outline: none;
+}
