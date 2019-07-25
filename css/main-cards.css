@@ -1,0 +1,60 @@
+.cards-block__all {
+    display: flex;
+    flex-direction: column;
+}
+/*invite*/
+.invite-cards {
+    text-align: center;
+    margin: 80px auto 40px;
+}
+.invite-cards h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.invite-cards p {
+    font-size: .8em;
+}
+
+/*block-cards*/
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    display: flex;
+    border-radius: 12px;
+    flex-direction: column;
+    width: 25%;
+    margin-right: 40px;
+}
+.card:last-child {
+    margin-right: 0;
+}
+.card p {
+    font-size: .8em;
+    text-align: center;
+    padding: 5px;
+}
+.card__bg {
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+}
+.insert__bg-1 {
+    background: #affbff url(../img/bank.png) no-repeat bottom;
+    background-size: 80%;
+}
+.insert__bg-2 {
+    background: #affbff url(../img/hammer.png) no-repeat bottom;
+    background-size: 90%;
+}
+.insert__bg-3 {
+    background: #affbff url(../img/bank3.png) no-repeat bottom;
+    background-size: 85%;
+}
+.insert__bg-4 {
+    background: #affbff url(../img/bank4.png) no-repeat bottom;
+    background-size: 60%;
+}
