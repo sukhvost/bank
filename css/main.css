@@ -3,11 +3,13 @@
     margin: 25px auto;
 }
 .main-wrap {
-    border-radius: 10px;
-    background: #affbff; 
+    
 }
 .main-wrap__blank {
     display: flex; 
+    background: #affbff; 
+    border-radius: 10px;
+    margin: 40px auto 80px;
 }
 .main-blank {
     padding: 40px;
@@ -58,4 +60,62 @@
 }
 .main-blank input:focus {
     outline: none;
+}
+
+/*styles for description*/
+.main-wrap__description {
+    display: flex;
+    flex-direction: column;
+}
+.main-wrap__description h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*items*/
+.item {
+    width: 100%;
+    border-radius: 10px;
+    padding: 40px;
+    margin-right: 40px;
+}
+.item:last-child {
+    margin-right: 0;
+}
+.item h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.item p {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/*first block*/
+.description__first-block {
+    display: flex;
+    width: 100%;
+    background: #affbff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.description__first-block .item {
+    width: 50%;
+}
+
+/*item__bg*/
+.item__bg {
+    width: 50%;
+    background: url(../img/points.png) no-repeat center;
+    background-size: contain;
+}
+
+/*second block*/
+.description__second-block {
+    display: flex;
+}
+.description__second-block .item {
+    background: #affbff;
 }
